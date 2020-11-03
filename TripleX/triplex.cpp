@@ -78,7 +78,7 @@ bool PlayGame(int Difficulty, int RemainingAttempts)
     std::cin >> GuessA;
     std::cout << "Insert the second number: " << std::endl;
     std::cin >> GuessB;
-    std::cout << "Insert the third numeber: " << std::endl;
+    std::cout << "Insert the third number: " << std::endl;
     std::cin >> GuessC;
     std::cout << std::endl;
     std::cout << "Combination: " << GuessA << GuessB << GuessC;
@@ -92,12 +92,14 @@ bool PlayGame(int Difficulty, int RemainingAttempts)
     if (GuessSum == sum && GuessProduct == product)
     {
         std::cout << " are correct."; 
-        std::cout << " Accesing to level " << Difficulty + 1 << " server.\n";
         if (Difficulty + 2 == 6)
-        {
+        {             
             return true;
         }   
-
+        else (Difficulty + 2 != 6)
+        {
+            std::cout << " Accesing to level " << Difficulty + 1 << " server.\n";
+        }
         return true;
     }  
 
