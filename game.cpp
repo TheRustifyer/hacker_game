@@ -99,6 +99,7 @@ bool PlayGame(int Difficulty, int RemainingAttempts)
         else (Difficulty + 2 != 6)
         {
             std::cout << " Accesing to level " << Difficulty + 1 << " server.\n";
+            return true;
         }
         return true;
     }  
