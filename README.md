@@ -12,7 +12,7 @@ You have a lens eye microcomputer, and will guide you and will give you some adv
 
 ## Instructions
 
-You have a total 0f 5 levels, each more more difficult than previous. 
+You have a total ff 5 levels, each more more difficult than previous. 
 To complet it, you will have to guess a number. Your OCULUS LENS will help you.
 It will give you two advices, and you will have a total of 3 attemps to guess it. 
 
