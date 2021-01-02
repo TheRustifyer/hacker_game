@@ -1,7 +1,7 @@
 # Hacker Game
 
 Hey there everyone, and welcome to Hacker Game. 
-This is a commnad line game made it by @pyzyryab, original from the Udemy's http://gdev.tv/urcgithub course.
+This is a commnad line game, taken from the Udemy's [C++ and Unreal Engine](http://gdev.tv/urcgithub) course.
 
 
 ## History
