@@ -2,8 +2,7 @@
 #include <string>
 #include <ctime>
 
-std::string GetPlayerName()
-{   
+std::string GetPlayerName() {   
     
     std::string NamePlayer;
     std::cout << std::endl;
@@ -16,8 +15,7 @@ std::string GetPlayerName()
 
 }
 
-void PrintIntroduction(int Difficulty, std::string NamePlayer)
-{
+void PrintIntroduction(int Difficulty, std::string NamePlayer) {
 
     // Explaining task to player
     std::cout << "HEY THERE " << NamePlayer << "!" << std::endl;
@@ -31,14 +29,13 @@ void PrintIntroduction(int Difficulty, std::string NamePlayer)
 
 }
 
-void CallingIntro(int Difficulty)
-{
+void CallingIntro(int Difficulty) {
+    
     std::string NamePlayer = GetPlayerName();
     PrintIntroduction(Difficulty, NamePlayer);
 }
 
-void PrintFingerPrints(int Difficulty, int ResultSum, int ResultProduct)
-{
+void PrintFingerPrints(int Difficulty, int ResultSum, int ResultProduct) {
 
     /*Let's gonna explain a little bit more...
     We just can print out a few lines giving some advices to complete the game...
@@ -54,8 +51,7 @@ void PrintFingerPrints(int Difficulty, int ResultSum, int ResultProduct)
     std::cout << "    + The result of the product of these numbers are: " << ResultProduct << std::endl;
 }
 
-bool PlayGame(int Difficulty, int RemainingAttempts)
-{
+bool PlayGame(int Difficulty, int RemainingAttempts) {
 
     const int a = rand() % Difficulty +  Difficulty;
     const int b = rand() % Difficulty +  Difficulty;
